@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "649619930540",
+    "project_id": "wheiz-daaca",
+    "storage_bucket": "wheiz-daaca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649619930540:android:0bdab4bcaf5ff2074ace09",
+        "android_client_info": {
+          "package_name": "com.shahryar.wheiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0gjHVU8JYJIN9vBeHhBJdkFyS_y-ULgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
