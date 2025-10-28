@@ -39,9 +39,9 @@ export default {
       typedRoutes: true
     },
     extra: {
-      // Azure Translator credentials
-      AZURE_TRANSLATOR_KEY: "***REMOVED***",
-      AZURE_TRANSLATOR_REGION: "centralindia", // Make sure this matches your Azure Translator resource region
+      // Read from environment at build/dev time; never hardcode secrets in the repo
+      AZURE_TRANSLATOR_KEY: process.env.AZURE_TRANSLATOR_KEY,
+      AZURE_TRANSLATOR_REGION: process.env.AZURE_TRANSLATOR_REGION,
       eas: {
         projectId: "25dbba8a-7834-4f45-8476-f790febb5dd4"
       }
