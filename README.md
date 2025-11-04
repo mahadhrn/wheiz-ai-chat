@@ -16,6 +16,8 @@ A React Native app built with Expo Router and Supabase.
 - For Android: Android Studio + SDKs
 - Optional for web: modern browser
 
+![Cover](assets/images/WheizAD.png)
+
 ### Clone and install
 ```bash
 # clone
